@@ -1,0 +1,60 @@
+body, h1, h2, p, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    min-height: 250px;
+}
+
+.right-column {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    font-family: Garamond;
+}
+
+header{
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+.lewy{
+    background-color: tan;
+    height: 500px;
+    width: 40%;
+}
+
+.prawy{
+    background-color: tan;
+    height: 250px;
+    /* width: 60%; nie da sie tego zrobić żeby wyglądało tak jak każe CKE*/
+}
+
+footer{
+    background-color: saddlebrown;
+    color: white;
+}
+
+form{
+    background-color: saddlebrown;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 300px;
+}
+
+form input{
+    margin: 5px;
+}
+
+p::before{
+    content: "STATUS: ";
+}
