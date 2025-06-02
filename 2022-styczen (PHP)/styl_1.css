@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    min-height: 220px;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main{
+    background-color: lightblue;
+    padding: 100px;
+}
+
+#lewy{
+    background-color: dodgerblue;
+    color: white;
+    width: 20%;
+    height: 220px;
+}
+
+#srodkowy, #prawy{
+    background-color: dodgerblue;
+    color: white;
+    height: 220px;
+    width: 40%;
+    text-align: center;
+}
+
+a{
+    border-color: dimgray;
+    border-style: dashed;
+    border-width: 1px;
+    background-color: gold;
+    color: darkred;
+    padding: 10px;
+}
